@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div style={{ fontWeight: 600, color: 'rgba(0,0,0, .65)', fontSize: '20px'} }>CPLM</div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
